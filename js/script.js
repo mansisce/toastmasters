@@ -220,7 +220,7 @@ $(function () {
 		function success(position){
 		  var currloc = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 		  console.log(position.coords.latitude+" -- what is lang and lat ---"+ position.coords.longitude);
-		  var marker2 = new google.maps.Marker({
+		  var marker = new google.maps.Marker({
 		      position: currloc, 
 		      map: map, 
 		      title:"You are here! (at least within a "+position.coords.accuracy+" meter radius)"
