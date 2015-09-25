@@ -217,7 +217,7 @@ $(function () {
 		} else {
 		  console.log('It is not supported');
 		} 
-		function success(){
+		function success(position){
 		  var currloc = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 		  var marker2 = new google.maps.Marker({
 		      position: currloc, 
