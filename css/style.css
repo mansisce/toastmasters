@@ -603,6 +603,7 @@ h6 {
 .navbar-default .navbar-nav > li > a:focus {
   color: #4ecdc4;
 }
+
 .page-header {
   background-image: url(../images/hero-img14.png);
   background-position: top center;
@@ -1641,4 +1642,11 @@ footer.site-footer a:hover {
     cursor: pointer;
     width: 25%;
   }
+}
+/* Added by Mansi */
+.navbar-collapse {
+  background-color: #e7e7e7;
+}
+.navbar-collapse li a{
+  color: #777;
 }
